@@ -1,0 +1,80 @@
+body {
+  background-color: #232323;
+  color: #374140;
+}
+
+.container {
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+
+  margin: 50px auto;
+
+  width: 25rem;
+  height: 30rem;
+
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+h1 {
+  margin-top: 25px;
+}
+
+hr {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+input {
+  margin: 10px 0px 10px 0px;
+  background-color: #bdc3c7;
+  border: 1px solid #77848c;
+  width: 150px;
+  justify-content: center;
+}
+label {
+  margin-right: 5px;
+}
+
+.button {
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 36px;
+  text-decoration: none;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.green {
+  background-color: green;
+  background: linear-gradient(to bottom, #44c767 5%, #4a9c1d 100%);
+  background-color: #44c767;
+  border: 1px solid #18ab29;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+.green:hover {
+  background: linear-gradient(to bottom, #4a9c1d 5%, #44c767 100%);
+  background-color: #4a9c1d;
+}
+
+.red {
+  background: linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+  background-color: #d0451b;
+  border: 1px solid #942911;
+  color: #ffffff;
+  text-shadow: 0px 1px 0px #854629;
+}
+.red:hover {
+  background: linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+  background-color: #bc3315;
+}
